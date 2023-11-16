@@ -1,0 +1,145 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 de nov. de 2023, 19:52:39
+    Author     : wesle
+*/
+
+:root {
+    --cor_cinza_escuro: #343F4B;
+    --cor_verde: green;
+}
+
+body {
+    font-family: Tahoma, Verdana;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border: none;
+    border-collapse: collapse;
+}
+
+tr, td, div {
+    border: none;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: var(--cor_cinza_escuro);
+}
+
+.box_logotipo {
+    background-color: #1300FF;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    height: 50px;
+}
+
+.box_menu_imagem {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box_menu_texto_h2 {
+    text-align: center;
+    vertical-align: top;
+}
+
+.box_menu_texto {
+    text-align: center;
+    vertical-align: auto;
+    padding-bottom: 50px;
+}
+
+.box_menu_separador {
+    border-right: 2px solid;
+    border-right-color: silver;
+    padding: 5px;
+}
+
+.box_menu_botao {
+    text-align: center;
+    background-color: var(--cor_verde);
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 15px 32px;
+}
+
+.box_menu_link {
+    text-align: center;
+    color: var(--cor_cinza_escuro);
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+/* AREA SUPERIOR */
+.box_coleta_seletiva_icon {
+    background-color: var(--cor_verde);
+    border: none;
+    color: white;
+    width: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box_coleta_seletiva_text {
+    background-color: var(--cor_verde);
+    border: none;
+    color: white;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo_coleta_seletiva {
+    background-color: var(--cor_verde);
+    color: white;
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+.subtitulo_coleta_seletiva {
+    background-color: var(--cor_verde);
+    color: white;
+    font-size: 16pt;
+}
+
+.titulo_coleta_seletiva {
+    background-color: var(--cor_verde);
+    color: white;
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+/* AREA INFERIOR */
+.box_titulo_modulo {
+    background-color: white;
+    border: none;
+    color: var(--cor_cinza_escuro);
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.box_texto_modulo {
+    background-color: var(--cor_verde);
+    border: none;
+    color: white;
+    font-size: 14pt;
+    font-weight: normal;
+    padding: 20px;
+    text-align: justify;
+}
